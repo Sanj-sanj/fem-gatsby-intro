@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'gatsby-image';
 import { css } from '@emotion/react';
-import useInstagram from '../hooks/use-instagram';
+import useInstagram from '../hooks/useInstagram';
 
 const Insta = () => {
   const instaPhotos = useInstagram();

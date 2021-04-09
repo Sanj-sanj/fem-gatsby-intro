@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 import { css } from '@emotion/react';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import Layout from '../components/Layout';
-import ReadLink from '../components/Read-Link';
+import ReadLink from '../components/ReadLink';
 
 //this is the template for our posts, it renders the markdown using MDXRenderer which is gotten from the query for the slug which was made available by the declaration in gatsby-node.js.
 

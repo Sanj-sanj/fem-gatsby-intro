@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../components/Layout';
-import usePosts from '../hooks/use-posts';
+import usePosts from '../hooks/usePosts';
 import PostPreview from '../components/PostPreview';
 import Hero from '../components/Hero';
 import Insta from '../components/Insta';
