@@ -1,7 +1,7 @@
 import React from 'react';
 import { Global, css } from '@emotion/react';
 import Helmet from 'react-helmet';
-import Header from './header';
+import Header from './Header';
 import useSiteMetadata from '../hooks/useSiteMetadata';
 
 const Layout = ({ children }) => {
