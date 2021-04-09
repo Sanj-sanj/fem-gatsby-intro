@@ -3,7 +3,7 @@ import Layout from '../components/Layout';
 import usePosts from '../hooks/usePosts';
 import PostPreview from '../components/PostPreview';
 import Hero from '../components/Hero';
-// import Insta from '../components/Insta';
+import Insta from '../components/Insta';
 
 const Index = () => {
   const posts = usePosts();
@@ -15,7 +15,7 @@ const Index = () => {
         {posts.map(post => (
           <PostPreview key={post.slug} post={post} />
         ))}
-        {/* <Insta /> */}
+        <Insta />
       </Layout>
     </>
   );
