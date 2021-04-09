@@ -67,3 +67,7 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+
+# temp
+src/components/Insta.js
+src/hooks/useInstagram.js
